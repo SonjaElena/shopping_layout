@@ -1,0 +1,177 @@
+/* Global settings */
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: grey;
+}
+
+h1 {
+  color: black;
+}
+
+/* Generall design */
+body {
+  display: flex;
+  align-items: start;
+  gap: 3rem;
+}
+
+article {
+  border: 0.125rem solid black;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  box-shadow: 12px 12px 2px 1px var(--clr-accent);
+  width: 400px;
+  height: auto;
+  position: relative;
+}
+
+/* Main image */
+.imgcontainer {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.imgcontainer img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0.25rem;
+}
+
+.imgcontainer p {
+  position: absolute;
+  color: grey;
+  font-size: 12px;
+  margin-top: 12rem;
+  margin-left: 1rem;
+}
+
+/* Grey area */
+.greybox {
+  background-color: #d3d3d3;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  position: relative;
+  max-width: 20rem;
+}
+
+.A {
+  background: linear-gradient(-90deg, #104e8b 50%, #104e8b 50%);
+}
+
+.B {
+  background: linear-gradient(-90deg, #cd3333 50%, #cd3333 50%);
+}
+
+.C {
+  background: linear-gradient(-90deg, black 50%, black 50%);
+}
+
+.D {
+  background: linear-gradient(-90deg, rgb(32, 86, 19) 50%, black 50%);
+}
+
+.E {
+  background: linear-gradient(-90deg, rgb(64, 129, 232) 50%, black 50%);
+}
+
+.F {
+  background: linear-gradient(-90deg, rgb(186, 62, 34) 50%, black 50%);
+}
+
+.G {
+  background: linear-gradient(-90deg, black 50%, white 50%);
+}
+
+.H {
+  background: linear-gradient(-90deg, rgb(186, 62, 34) 50%, white 50%);
+}
+
+/* Buttons */
+
+.topbutton {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  opacity: 0.5;
+  border-color: white;
+  padding: 2px 10px;
+  font-size: 10px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 11rem;
+  margin-top: 1rem;
+}
+
+.mainbutton {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  border-color: white;
+  padding: 15px 100px;
+  font-size: 10px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 18rem;
+}
+
+.bottombutton {
+  display: inline-block;
+  background-color: rgb(78, 3, 207);
+  color: white;
+  border-color: rgb(78, 3, 207);
+  padding: 15px 100px;
+  font-size: 10px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 18rem;
+}
+
+/* Dropdown */
+
+.dropdownrow {
+  border: 0px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+#quantitiy {
+  margin-left: 2rem;
+}
+
+.first {
+  border: none;
+  width: 70px;
+}
+
+/* Dots */
+.dots {
+  display: flex;
+  justify-content: flex-start;
+  gap: 7px;
+  padding-bottom: 1.5rem;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
